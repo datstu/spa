@@ -1,0 +1,257 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?2be951b82e46e406efbfb8bf18810954") format("truetype"),
+url("./flaticon.woff?2be951b82e46e406efbfb8bf18810954") format("woff"),
+url("./flaticon.woff2?2be951b82e46e406efbfb8bf18810954") format("woff2"),
+url("./flaticon.eot?2be951b82e46e406efbfb8bf18810954#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2be951b82e46e406efbfb8bf18810954#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "hot-stone": "\f101",
+    "back": "\f102",
+    "pimples": "\f103",
+    "skin": "\f104",
+    "beauty-treatment": "\f105",
+    "shopping-bag": "\f106",
+    "shopping-bag-1": "\f107",
+    "star": "\f108",
+    "chip": "\f109",
+    "layers": "\f10a",
+    "picasa-logotype": "\f10b",
+    "email": "\f10c",
+    "file": "\f10d",
+    "bar-chart": "\f10e",
+    "notebook": "\f10f",
+    "team": "\f110",
+    "money": "\f111",
+    "smartphone": "\f112",
+    "responsive": "\f113",
+    "google-play": "\f114",
+    "android": "\f115",
+    "apple": "\f116",
+    "heart": "\f117",
+    "phone-call": "\f118",
+    "message": "\f119",
+    "writing": "\f11a",
+    "chat": "\f11b",
+    "internet": "\f11c",
+    "diamond": "\f11d",
+    "users": "\f11e",
+    "calendar": "\f11f",
+    "rocket-ship": "\f120",
+    "trophy": "\f121",
+    "menu": "\f122",
+    "left-arrow": "\f123",
+    "right-arrow-angle": "\f124",
+    "search": "\f125",
+    "play-button": "\f126",
+    "thumb-up": "\f127",
+    "speaker": "\f128",
+    "avatar": "\f129",
+    "cancel": "\f12a",
+    "checkmark": "\f12b",
+    "hot-tub": "\f12c",
+    "spa-tools": "\f12d",
+    "bamboo-sticks": "\f12e",
+    "bath": "\f12f",
+    "relax": "\f130",
+    "female-hairs": "\f131",
+    "massage": "\f132",
+    "essential-oil": "\f133",
+    "face-mask": "\f134",
+    "stones": "\f135",
+    "massage-1": "\f136",
+    "bathrobe": "\f137",
+    "lotion": "\f138",
+    "sauna": "\f139",
+    "hot-stones": "\f13a",
+);
+
+.flaticon-hot-stone:before {
+    content: map-get($flaticon-map, "hot-stone");
+}
+.flaticon-back:before {
+    content: map-get($flaticon-map, "back");
+}
+.flaticon-pimples:before {
+    content: map-get($flaticon-map, "pimples");
+}
+.flaticon-skin:before {
+    content: map-get($flaticon-map, "skin");
+}
+.flaticon-beauty-treatment:before {
+    content: map-get($flaticon-map, "beauty-treatment");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-shopping-bag-1:before {
+    content: map-get($flaticon-map, "shopping-bag-1");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-picasa-logotype:before {
+    content: map-get($flaticon-map, "picasa-logotype");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-notebook:before {
+    content: map-get($flaticon-map, "notebook");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-responsive:before {
+    content: map-get($flaticon-map, "responsive");
+}
+.flaticon-google-play:before {
+    content: map-get($flaticon-map, "google-play");
+}
+.flaticon-android:before {
+    content: map-get($flaticon-map, "android");
+}
+.flaticon-apple:before {
+    content: map-get($flaticon-map, "apple");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-writing:before {
+    content: map-get($flaticon-map, "writing");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-internet:before {
+    content: map-get($flaticon-map, "internet");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-rocket-ship:before {
+    content: map-get($flaticon-map, "rocket-ship");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow-angle:before {
+    content: map-get($flaticon-map, "right-arrow-angle");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-thumb-up:before {
+    content: map-get($flaticon-map, "thumb-up");
+}
+.flaticon-speaker:before {
+    content: map-get($flaticon-map, "speaker");
+}
+.flaticon-avatar:before {
+    content: map-get($flaticon-map, "avatar");
+}
+.flaticon-cancel:before {
+    content: map-get($flaticon-map, "cancel");
+}
+.flaticon-checkmark:before {
+    content: map-get($flaticon-map, "checkmark");
+}
+.flaticon-hot-tub:before {
+    content: map-get($flaticon-map, "hot-tub");
+}
+.flaticon-spa-tools:before {
+    content: map-get($flaticon-map, "spa-tools");
+}
+.flaticon-bamboo-sticks:before {
+    content: map-get($flaticon-map, "bamboo-sticks");
+}
+.flaticon-bath:before {
+    content: map-get($flaticon-map, "bath");
+}
+.flaticon-relax:before {
+    content: map-get($flaticon-map, "relax");
+}
+.flaticon-female-hairs:before {
+    content: map-get($flaticon-map, "female-hairs");
+}
+.flaticon-massage:before {
+    content: map-get($flaticon-map, "massage");
+}
+.flaticon-essential-oil:before {
+    content: map-get($flaticon-map, "essential-oil");
+}
+.flaticon-face-mask:before {
+    content: map-get($flaticon-map, "face-mask");
+}
+.flaticon-stones:before {
+    content: map-get($flaticon-map, "stones");
+}
+.flaticon-massage-1:before {
+    content: map-get($flaticon-map, "massage-1");
+}
+.flaticon-bathrobe:before {
+    content: map-get($flaticon-map, "bathrobe");
+}
+.flaticon-lotion:before {
+    content: map-get($flaticon-map, "lotion");
+}
+.flaticon-sauna:before {
+    content: map-get($flaticon-map, "sauna");
+}
+.flaticon-hot-stones:before {
+    content: map-get($flaticon-map, "hot-stones");
+}
