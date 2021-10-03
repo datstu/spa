@@ -9,14 +9,16 @@
                         <div class="ft-gallery-box">
                             <div class="ft-gallery-media beauty-care owl-spa-btn">
                                 <div class="item  wow fadeInDown" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="{{asset('public/frontend/images/gallery/ft-gallery/pic1.jpg')}}" alt=""/></div>
-                                <div class="item  wow fadeInDown" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="{{asset('public/frontend/images/gallery/ft-gallery/pic1.jpg')}}" alt=""/></div>
+                                <div class="item  wow fadeInDown" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="{{asset('public/frontend/images/gallery/ft-gallery/feedbakne.png')}}" alt=""/></div>
+                                <div class="item  wow fadeInDown" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="{{asset('public/frontend/images/gallery/ft-gallery/feedback.jpg')}}" alt=""/></div>
+                                <div class="item  wow fadeInDown" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="{{asset('public/frontend/images/gallery/ft-gallery/feedback3.jpg')}}" alt=""/></div>
                             </div>
                         </div>
                         
                         <div class="text-center m-t100">
                             <h2>connect with us</h2>
                             <ul class="list-inline">                                
-                                <li><a class="site-button facebook circle"><i class="fa text-white fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Kho%E1%BA%BB-c%C3%B9ng-Lea-108835094783066" class="site-button facebook circle"><i class="fa text-white fa-facebook"></i></a></li>
                                 <li><a class="site-button google-plus circle"><i class="fa text-white fa-google-plus"></i></a></li>
                                 <li><a class="site-button linkedin circle"><i class="fa text-white fa-linkedin"></i></a></li>
                                 <li><a class="site-button twitter circle"><i class="fa text-white fa-twitter"></i></a></li>
@@ -24,14 +26,14 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 text-center equal-col">
-                        <h2 class="m-b30 text-white min-title">Lea Beauty Spa</h2>
+                        <h2 class="m-b30 text-white min-title">Khỏe cùng Lea</h2>
                         <img src="{{asset('public/frontend/images/product/product/pic1.png')}}" alt="" class="wow zoomIn" data-wow-duration="1.50s" data-wow-delay="0.1s"/>
                         <h2 class="min-title m-b15"><a href="#" class="site-button-link"><span class="text-primary">Ưu đãi đặc biệt</span></a></h2>
                         <p>Mua sản phẩm - Tặng liệu trình <br/> <a href="#"><span class="text-primary">Inbox Ngay</span></a></p>
                     </div>
                     <div class="col-md-4 col-sm-4 text-center equal-col dis-tbl">
                         <div class="widget widget_getintuch dis-tbl-cell">
-                            <h2 class="m-b30 text-white min-title">Địa chỉ của Lea Beauty</h2>
+                            <h2 class="m-b30 text-white min-title">Địa chỉ của Lea </h2>
                             <p class="p-lr20">---Spa && Massage Lea Beauty Spot ---<br>
                             Số 228 Nguyễn Trọng Tuyển, <br> phường 8, quận Phú Nhuận, Tp. Hồ Chí Minh
                                 <a href="#"><span class="text-primary"> lea.beautyspot@gmail.com</span></a>
@@ -177,6 +179,7 @@
 <script src="{{asset('public/frontend/plugins/revolution/v5.4.3/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
 <script  src="{{asset('public/frontend/js/rev.slider.js')}}"></script>
 <script src="{{asset('public/frontend/plugins/aos/aos.js')}}"></script>
+<script src="{{asset('public/frontend/js/main.js')}}"></script>
 <!-- custom fuctions  -->
 <script>
 jQuery(document).ready(function() {
@@ -184,6 +187,34 @@ jQuery(document).ready(function() {
     
 }); /*ready*/
 AOS.init(); 
+</script>
+
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root hi"></div>
+
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "108835094783066");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>

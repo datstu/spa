@@ -1,480 +1,280 @@
-@include('template.header')
-    <!-- header END -->
-    <!-- Content -->
+@include('template.ecommerce.header')   
     <style>
-    .top-bar .container-fluid{
-        color: black !important;
-    }
-    .navbar-nav .active a{
-    border-color: #00723d !important;
+        @media only screen and  (max-width: 426px) {
+        .bottom-bar {
+background: #1baf68;
+margin-bottom:unset;
+padding:unset;
+padding-bottom: 100px;
+}}
+        </style>    
+        <!-- Main Slider Start -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row" style="background: #f1f1f5; ">
+                    <div class="col-md-3 header-img-mobile">
+                        <div class="header-img">
+                            <div class="img-item">
+                                <img src="{{asset('public/ecommerce/img/banner/ban6.jpg')}}" />
+                                <a class="img-text" >
+                                    <p>Lea không chỉ là nơi làm đẹp</p>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <style>
+                        video {
+                            object-fit: fill;
+width: 645px;
+height: 400px;
+display: flex;
 }
-.navbar-nav li a{
-    color: black !important;
-}
-@media only screen and (max-width: 425px) {
-    .container .row-category  {
-      margin-top: 0 ;
-    }
-    .mobile-425{
-        height:235px;
-    }
-  }
-    </style>
-    <div class="page-content bg-white" style="padding-bottom:0; background-image:url(public/frontend/images/background/bg10.jpg);background-size: 100% 75%;">
-        <!-- inner page banner -->
-        <div class="dez-bnr-inr overlay-white-middle tb m-b30 mobile-425" style="background-image:url(public/frontend/images/banner/bnr_product2.jpg);background-size: 100% 100%;">
-            <div class="container">
-                <div class="dez-bnr-inr-entry">
-                    <h1 class="text-white">Sản phẩm của Lea Beauty</h1>
-					<!-- Breadcrumb row -->
-					<div class="breadcrumb-row">
-						<ul class="list-inline">
-							<li><a href="/">Trang chủ</a></li>
-							<li>Sản phẩm</li>
-						</ul>
-					</div>
-					<!-- Breadcrumb row END -->
+                    </style>
+                    <div class="col-md-6 slider-mobile">
+                        <div class="header-slider normal-slider">
+                            <div class="header-slider-item">
+                                <img  src="{{asset('public/ecommerce/img/banner/ban4.jpg')}}" alt="Slider Image" />
+                               
+                            </div>
+                            <div class="header-slider-item">
+                                <img  src="{{asset('public/ecommerce/img/banner/ban5.jpg')}}" alt="Slider Image" />
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-3 category-desktop">
+                        <nav class="navbar bg-light">
+                            @include('template.ecommerce.category')
+                        </nav>
+                    </div>
+
+                   
+                    
                 </div>
             </div>
         </div>
-        <!-- inner page banner END -->
-
-
-<!-- custom here -->
-
-<div class="slotholder">
-  @include('template.sliderBanner')
-</div>
-    <!-- #endregion Jssor Slider End -->
-        <!-- contact area -->
-        <div class="content-area bgeffect" style="background-image:url(public/frontend/images/background/bg12.jpg);" data-0="background-position:0px 0px;" data-end="background-position:0px 1000px;">
-       <style>
-       .row-category{
-           margin-top:-25px
-       }
-       .item-category{
-        text-align:center;
-       }
-        .title-category {
-        height: 57px;
-        margin-top:3px;
-       }
-       .img-item-category{
-        height: 60px;
-       }
-       .item_new_price{
-        color: #ff6600;
-        line-height: 20px;
-       }
-       .txt_16{
-                                    font-size: 16px;
-                                }
-                                .txt_20{
-                                    font-size: 20px;
-                                }
-                                .price strong{
-                                    font-weight:bold;
-                                }
-                                .discount_percent{
-                                    background: #ff5501;
-                                    float: right;
-                                    display: inline-block;
-                                    background: red;
-                                    margin-left: 5px;
-                                    padding: 0px 5px;
-                                    border-radius: 2px;
-                                    color: #fff;
-                                }
-                                .item_old_price{
-                                    color: #666;
-                                    text-decoration: line-through;
-                                    line-height: 20px;
-                                }
-                                .right{
-                                    float: right;
-                                }
-                                .left{
-                                    float: left;
-                                }
-                                .txt_12 {
-                                    font-size: 12px;
-                                }
-                                .txt_color_1 {
-                                    color: #326e51;
-                                }
-                                   
-                                   .brand_product{
-                                    width: 100%;
-                                    margin-top: 25px;
-                                    font-weight:bold;
-                                   }
-                                  
-                                   .name_product{                                  
-                                    width: 100%;
-                                   
-                                    font-size: 20px;
-                                   }
-                                   .item_name{
-                                    line-height: 24px;
-                                    max-height: 50px;
-                                    overflow: hidden;
-                                    margin: -15px 0;
-                                   }
-                                   
-                                  .block_star{
-                                    position: relative;
-                                    display: inline-block;
-                                    font-size: 0;
-                                    line-height: 0;
-                                    margin-right: 3px;
-                                  }
-                                  .start_small{
-                                    width: 64px;
-                                    height: 11px;
-                                  }
-                                  .number_start {
-                                    position: absolute;
-                                    left: 0;
-                                    top: 0;
-                                }
-                                  .start_small .number_start {
-                                        height: 11px;
-                                        background: url('public/frontend/images/css/bg_start_small.jpg') no-repeat 0 -10px;
-                                    }
-                                    .start_small .start_background {
-                                        width: 100%;
-                                        height: 11px;
-                                        background: url('public/frontend/images/css/bg_start_small.jpg') no-repeat 0 -0px;
-                                    }
-                                    .font{
-                                        font-family: "Times New Roman", Times, serif;
-                                    }
-                                    .txt_14{
-                                        font-size:14px;
-                                    }
-                                    .txt_18{
-                                        font-size:18px;
-                                    }
-                                    .rate{
-                                    	margin-top: -25px;
-                                    }
-       </style>
-       <!-- category -->
-       <div class="container">
-       <div class="row row-category ">                                 
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Bán chạy</div>
-                </a>
+        {{-- category-mobile --}}
+<div class="block_icon_category width_common" id="new_box_icon_category">
+    <div class="width_common scroll_horizon">
+        <div class="content_scroll_horizon">
+            <a href="">
+            <div class="new_width_icon_category">
+                <div class="item_category_top">
+                    <a href="{{URL::to('/tra-cuu-don-hang')}}" >
+                        <span class="icon_lam_category_top">
+                            <img src="https://media.hasaki.vn/hsk/icon/menu-category.png"></span>
+                            <div class="title_cate_home">Tất cả</div></a><a href="{{URL::to('/tra-cuu-don-hang')}}"  >
+                            <span class="icon_lam_category_top"><img src="{{asset('public/ecommerce/img/category-mobile/track-order-70.png')}}"></span>
+                            <div class="title_cate_home">Tra cứu đơn hàng</div>
+                    </a>
+                </div>
+                <div class="item_category_top">
+                    <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');">
+                        <span class="icon_lam_category_top">
+                            <img src="{{asset('public/ecommerce/img/category-mobile/menu-booking.png')}}">
+                        </span><div class="title_cate_home">Đặt hẹn</div>
+                    </a>
+                    <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');">
+                        <span class="icon_lam_category_top">
+                            <img src="{{asset('public/ecommerce/img/category-mobile/icon-covid.png')}}">
+                        </span><div class="title_cate_home">Covid</div>
+                    </a>
+                </div>
+                <div class="item_category_top">
+                    <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');"><span class="icon_lam_category_top">
+                        <img src="{{asset('public/ecommerce/img/category-mobile/now-free-mobile.gif')}}"></span>
+                        <div class="title_cate_home">Giao 2H</div>
+                    </a>
+                    <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');">
+                        <span class="icon_lam_category_top"><img src="{{asset('public/ecommerce/img/category-mobile/menu-bestseller.png')}}"></span>
+                        <div class="title_cate_home">Bán chạy</div>
+                    </a></div>
+                    <div class="item_category_top">
+                        <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');"><span class="icon_lam_category_top"><img src="{{asset('public/ecommerce/img/category-mobile/menu-spa.png')}}"></span>
+                            <div class="title_cate_home">Clinic &amp; S.P.A</div></a>
+                            <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');"><span class="icon_lam_category_top">
+                                <img src="{{asset('public/ecommerce/img/category-mobile/menu-deals.png')}}"></span>
+                                <div class="title_cate_home">Deals</div></a></div><div class="item_category_top">
+                                    <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');"><span class="icon_lam_category_top">
+                                        <img src="{{asset('public/ecommerce/img/category-mobile/menu-spa-services.png')}}"></span>
+                                        <div class="title_cate_home">Bảng giá</div></a>
+                                        <a href="javascript:;"  onclick="alert('Hệ thống đang cập nhật. Xin cảm ơn.');"><span class="icon_lam_category_top">
+                                            <img src="{{asset('public/ecommerce/img/category-mobile/menu-blog.png')}}"></span>
+                                            <div class="title_cate_home">Cẩm nang</div></a>
+                                        </div>
             </div>
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Dịch vụ</div>
-                </a>
-            </div>
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Đặt hẹn</div>
-                </a>
-            </div>
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Khuyến mãi</div>
-                </a>
-            </div>
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Cẩm nang</div>
-                </a>
-            </div>
-            <div class="col-md-2  col-xs-4  justify-content-center item-category">
-                <a href=""> <span class="icon-category-top">
-                <img src="{{asset('public/frontend/images/item-category/pic1.png')}}" alt="" class='img-item-category'></span>
-                <div class="title-category">Covid</div>
-                </a>
-            </div>
+        </div></div>
         </div>
-        </div>
-       <!-- category end -->
-            <!-- Product -->
-            <div class="container " >
-                 <div class="row" data-aos="fade-up" data-aos-duration="1000"> <div class="col-md-3 col-sm-6 m-b30 " > <div class="dez-box p-a20 border-1 bg-gray"> <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt=""> <div class="overlay-bx"> <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> </div> </div> </div> <div class="dez-info p-t20 "> <div class="m-b15 price"> <strong class="item_new_price txt_20 left font">123.000 ₫</strong> <span class="discount_percent txt_14 font">35%</span> <span class="item_old_price txt_16 right font">189.000 ₫</span> </div> <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div> <h2 class="  name_product"> <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div> </h2> <div class=" rate font txt_16"> <div class="block_star start_small"> <div style="width:96%;" class="number_start"></div> <div class="start_background"></div> </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"> <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span> </div> </div> </div> </div><div class="col-md-3 col-sm-6 m-b30"> <div class="dez-box p-a20 border-1 bg-gray"> <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt=""> <div class="overlay-bx"> <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> </div> </div> </div> <div class="dez-info p-t20 "> <div class="m-b15 price"> <strong class="item_new_price txt_20 left font">123.000 ₫</strong> <span class="discount_percent txt_14 font">35%</span> <span class="item_old_price txt_16 right font">189.000 ₫</span> </div> <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div> <h2 class="  name_product"> <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div> </h2> <div class=" rate font txt_16"> <div class="block_star start_small"> <div style="width:96%;" class="number_start"></div> <div class="start_background"></div> </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"> <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span> </div> </div> </div> </div><div class="col-md-3 col-sm-6 m-b30"> <div class="dez-box p-a20 border-1 bg-gray"> <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt=""> <div class="overlay-bx"> <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> </div> </div> </div> <div class="dez-info p-t20 "> <div class="m-b15 price"> <strong class="item_new_price txt_20 left font">123.000 ₫</strong> <span class="discount_percent txt_14 font">35%</span> <span class="item_old_price txt_16 right font">189.000 ₫</span> </div> <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div> <h2 class="  name_product"> <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div> </h2> <div class=" rate font txt_16"> <div class="block_star start_small"> <div style="width:96%;" class="number_start"></div> <div class="start_background"></div> </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"> <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span> </div> </div> </div> </div><div class="col-md-3 col-sm-6 m-b30"> <div class="dez-box p-a20 border-1 bg-gray"> <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt=""> <div class="overlay-bx"> <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> </div> </div> </div> <div class="dez-info p-t20 "> <div class="m-b15 price"> <strong class="item_new_price txt_20 left font">123.000 ₫</strong> <span class="discount_percent txt_14 font">35%</span> <span class="item_old_price txt_16 right font">189.000 ₫</span> </div> <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div> <h2 class="  name_product"> <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div> </h2> <div class=" rate font txt_16"> <div class="block_star start_small"> <div style="width:96%;" class="number_start"></div> <div class="start_background"></div> </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"> <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span> </div> </div> </div> </div></div>
-                <div class="row" data-aos="fade-up" data-aos-duration="1000"> 
-                    <div class="col-md-3 col-sm-6 m-b30 " >
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
-                                                       
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
+             {{--end category-mobile --}}
+        <!-- Main Slider End -->      
         
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
+        <!-- Brand Start -->
+       {{-- @include('template.ecommerce.brand')    --}}
+        <!-- Brand End -->      
+        <!-- Featured Product Start -->
+        @if(count($featureProducts) >3 )
+        <div class="featured-product product"  >
+            <div class="container-fluid">
+                <div class="section-header">
+                    <h2 class="customer-h2">Sản phẩm Nổi bật</h2>
+                    {{-- <span><a href="{{URL::to('/san-pham-theo-danh-muc-999' )}}">Xem tất cả @if(count($featureProducts)>10)(10+) @endif</a></span> --}}
+                </div>
+                {{-- <div class="row align-items-center product-slider product-slider-4"> --}}
+                    <div class="row align-items-center product-slider ">
+                    @foreach ($featureProducts as $item)      
+                    <div class="col-lg-3">
+                        <div class="product-item">
+                            <div class="product-image">
+                                <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}">
+                                    <img class="img-lea"
+                                    src="{{asset('public/uploads/product/'.$item->image)}}" alt="{{$item->productName}}">
+                                </a>
+                                <div class="product-action">
+                                    <form>
+                                        @csrf
+                                        <input type="hidden" class="cart_product_id_{{$item->productID}}" value="{{$item->productID}}">
+                                        <input type="hidden" class="cart_product_name_{{$item->productID}}" value="{{$item->productName}}">
+                                        <input type="hidden" class="cart_product_price_{{$item->productID}}" value="{{$item->price}}">
+                                        <input type="hidden" class="cart_product_image_{{$item->productID}}" value="{{$item->image}}">
+                                        
+                                    <a  class="add-to-cart-lea" data-id_product="{{$item->productID}}"><i class="fa fa-cart-plus"></i></a>
+                                </form>
+                                    <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"><i class="fa fa-heart"></i></a>
+                                    <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
+                           
+                                <!--customer product item-->
+                         <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"> 
+                            <div class="dez-info p-t20 "> 
+                            <div class="m-b15 price"> 
+                                <strong class="item_new_price txt_20 left font">{{$item->price}} đ</strong> 
+                                                            </div> 
+                            <div class="brand_product txt_color_1 ">
+                                <div class=" item_name_lea txt_18">{{$item->productName}}</div>
+                            </div> 
+                            <h2 class="  name_product"> 
+                                <div class="item_name font">
+                                    {{$item->moTaNgan}}</div> 
+                            </h2> 
+                            <div class=" rate font txt_16"> 
+                                <div class="block_star start_small"> 
+                                    <div style="width:96%;" class="number_start"> </div> 
+                                    <div class="start_background"></div> 
+                                </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"><img style="width: unset;display: unset; " src="public/frontend/images/css/cart.svg" alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span>
                             </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div>
-                                </div>  <div class="row aos-animate" data-aos="fade-up" data-aos-duration="1000"> 
-                    <div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div><div class="col-md-3 col-sm-6 m-b30">
-                        <div class="dez-box p-a20 border-1 bg-gray">
-                            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom"> <img src="{{asset('public/frontend/images/product/traxanh.jpg')}}" alt="">
-                                <div class="overlay-bx">
-                                    <div class="overlay-icon"> <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-search icon-bx-xs"></i> </a> <a href="javascript:void(0)"> <i class="fa fa-heart icon-bx-xs"></i> </a> 
-                                    </div>
-                                </div>
-                            </div>
-        
-                                
-                                
-						<div class="dez-info p-t20 ">
-						 	<div class="m-b15 price">
-								<strong class="item_new_price txt_20 left font">123.000 ₫</strong>
-						        <span class="discount_percent txt_14 font">35%</span>
-						        <span class="item_old_price txt_16 right font">189.000 ₫</span>
-						    </div>
-						     <div class="brand_product txt_color_1 "><span class=" txt_18"> L'oreal</span></div>
-						        <h2 class="  name_product">
-						            <div class="item_name font">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu Hỗn Hợp 400ml</div>
-						        </h2>
-						        <div class=" rate font txt_16">
-						            <div class="block_star start_small">
-						                <div style="width:96%;" class="number_start"></div>
-						                <div class="start_background"></div>
-						            </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16">
-						                        <img src="{{('public/frontend/images/css/cart.svg')}}"  alt="" draggable="false" class="loading" data-was-processed="true">
-						                        1.581</span>
-						        </div>  
-						       
-		
-			                    </div>
-			                </div>
-			        </div>
+                        </div>
+                        </a>
+                                 <!--end customer product item-->
+                           
+                        </div>
+                    </div>
+                    @endforeach
                 </div>
             </div>
-            <!-- Product END -->
         </div>
-        <!-- contact area  END -->
-    </div>
-    <!-- Content END-->
-    @include('template.footer')
+        @endif
+        <!-- Featured Product End -->       
+   
+        
+        <!-- Category Start-->
+
+        <!-- Category End-->       
+        
+        <!-- Call to Action Start -->
+        <div class="call-to-action">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1 class="customer-h2">Khỏe cùng Lea</h1>
+                    </div>
+                    <div class="col-md-4" style="text-align: end;">
+                        <a href="tel:0907799046">(+84) 090 7799 046</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->       
+        
+        
+        
+       
+        <!-- Newsletter End -->        
+        
+        <!-- Recent Product Start -->
+        @if(count($meidcanProducts) >0 )
+        <div class="recent-product product">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <h2 class="customer-h2">Thiết bị Y tế</h2>
+            
+                    {{-- <span><a href="{{URL::to('/san-pham-theo-danh-muc-'.$meidcanProducts[0]->category_id )}}">Xem tất cả @if(count($meidcanProducts)>10)(10+) @endif</a></span> --}}
+                </div>
+                <div class="row align-items-center product-slider ">
+                    @foreach ($meidcanProducts as $item)
+                        
+                    
+                    <div class="col-lg-3">
+                        <div class="product-item">
+                            
+                            <div class="product-image">
+                                <a href="product-detail.html">
+                                    <img class="img-lea"
+                                    src="{{asset('public/uploads/product/'.$item->image)}}" alt="{{$item->productName}}">
+                                </a>
+                                <div class="product-action">
+                                    <form>
+                                        @csrf
+                                        <input type="hidden" class="cart_product_id_{{$item->productID}}" value="{{$item->productID}}">
+                                        <input type="hidden" class="cart_product_name_{{$item->productID}}" value="{{$item->productName}}">
+                                        <input type="hidden" class="cart_product_price_{{$item->productID}}" value="{{$item->price}}">
+                                        <input type="hidden" class="cart_product_image_{{$item->productID}}" value="{{$item->image}}">
+
+                                    <a  class="add-to-cart-lea" data-id_product="{{$item->productID}}"><i class="fa fa-cart-plus"></i></a>
+                                </form>
+                                <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"><i class="fa fa-heart"></i></a>
+                                    <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                           
+                                <!--customer product item-->
+                         <a href="{{URL::to('/chi-tiet-san-pham-'.$item->productID)}}"> 
+                            <div class="dez-info p-t20 "> 
+                            <div class="m-b15 price"> 
+                                <strong class="item_new_price txt_20 left font">{{$item->price}} vnđ</strong> 
+                                                            </div> 
+                            <div class="brand_product txt_color_1 ">
+                                <div class=" item_name_lea txt_18">{{$item->productName}}</div>
+                            </div> 
+                            <h2 class="  name_product"> 
+                                <div class="item_name font">
+                                    {{$item->moTaNgan}}</div> 
+                            </h2> 
+                            <div class=" rate font txt_16"> 
+                                <div class="block_star start_small"> 
+                                    <div style="width:96%;" class="number_start"> </div> 
+                                    <div class="start_background"></div> 
+                                </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"><img style="width: unset;display: unset; " src="public/frontend/images/css/cart.svg" alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span>
+                            </div>
+                        </div>
+                        </a>
+                                 <!--end customer product item-->
+                           
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+        @endif
+        <!-- Recent Product End -->
+        
+        
+
+        <!-- Review Start -->
+      
+        <!-- Review End -->        
+      
+        @include('template.ecommerce.footer')

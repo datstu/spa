@@ -109,7 +109,7 @@
 					<!-- Breadcrumb row -->
 					<div class="breadcrumb-row">
 						<ul class="list-inline">
-							<li><a href="#">Home</a></li>
+							<li><a href="{{URL::to('chi-tiet-dich-vu')}}">Home</a></li>
 							<li>List Sản phẩm dịch vụ Massage</li>
 						</ul>
 					</div>
@@ -132,127 +132,127 @@
                     <div id="masonry" class="dez-blog-grid-2">
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
                         <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-2">
-                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="#"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
+                                <div class="dez-post-media dez-img-effect shrink background-hover"> <a href="{{URL::to('chi-tiet-dich-vu')}}"><img src="{{asset('public/frontend/images/blog/grid/pic1.jpg')}}" height="407px" alt=""></a> </div>
                                 <div class="dez-post-info">
                                     <div class="dez-post-title ">
-                                        <h4 class="post-title"><a href="#">Massage Body với đá nóng</a></h4>
+                                        <h4 class="post-title"><a href="{{URL::to('chi-tiet-dich-vu')}}">Massage Body với đá nóng</a></h4>
                                     </div>
                                     <div class="dez-post-meta ">
                                         <ul>
                                             <li class="post-date"> <i class="fa fa-calendar"></i><strong>20-10</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i><a href="#">Lea Beauty</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="#">0 Comments</a> </li>
+                                            <li class="post-author"><i class="fa fa-user"></i><a href="{{URL::to('chi-tiet-dich-vu')}}">Lea Beauty</a> </li>
+                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="{{URL::to('chi-tiet-dich-vu')}}">0 Comments</a> </li>
                                         </ul>
                                     </div>
                                     <div class="dez-post-text">
                                         <p>#TRIỆT_LÔNG_CÔNG_NGHỆ_CAO_SHR tại Lea Beauty là công nghệ triệt lông hiện đại và tiên tiến. Công nghệ SHR có nhiều cải tiến từ thời gian điều trị, mức an toàn và độ hiệu quả. Công nghệ triệt lông SHR sử dụng mức năng lượng ánh sáng cải tiến với bước sóng dài 695-1200nm, có thể tiêu huỷ mọi tình trạng lông khác nhau và ngăn chặn không cho chúng mọc trở lại mà không gây đau do được trang bị hệ.</p>
                                     </div>
-                                    <div class="dez-post-readmore"> <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
+                                    <div class="dez-post-readmore"> <a href="{{URL::to('chi-tiet-dich-vu')}}" title="READ MORE" rel="bookmark" class="site-button-link">Xem chi tiết <i class="fa fa-angle-double-right"></i></a> </div>
                                 </div>
                             </div>
                         </div>
@@ -261,11 +261,11 @@
                     <!-- Pagination start -->
                     <div class="pagination-bx col-lg-12 clearfix ">
                         <ul class="pagination">
-                            <li class="previous"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            <li class="previous"><a href="{{URL::to('chi-tiet-dich-vu')}}"><i class="fa fa-angle-double-left"></i></a></li>
+                            <li class="active"><a href="{{URL::to('chi-tiet-dich-vu')}}">1</a></li>
+                            <li><a href="{{URL::to('chi-tiet-dich-vu')}}">2</a></li>
+                            <li><a href="{{URL::to('chi-tiet-dich-vu')}}">3</a></li>
+                            <li class="next"><a href="{{URL::to('chi-tiet-dich-vu')}}"><i class="fa fa-angle-double-right"></i></a></li>
                         </ul>
                     </div>
                     <!-- Pagination END -->

@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -68,7 +68,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -96,7 +96,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -124,7 +124,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -154,7 +154,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -268,7 +268,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -294,7 +294,7 @@ jQuery(document).ready(function() {
 		autoplayTimeout:2000,
 		margin:30,
 		nav:true,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		items:1,
 		dots: false,
 		animateOut:'fadeOut',
@@ -311,7 +311,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -340,7 +340,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -369,7 +369,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -398,7 +398,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -420,7 +420,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1
@@ -441,7 +441,7 @@ jQuery(document).ready(function() {
 		navSpeed: 2000,
 		paginationSpeed: 2000,
 		slideSpeed: 2000,
-		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+		navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
 		responsive:{
 			0:{
 				items:1

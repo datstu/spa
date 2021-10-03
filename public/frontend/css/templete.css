@@ -566,8 +566,8 @@ footer .footer-bottom .fa-heart {
 }
 .header-set {
     position: absolute;
-    right: -5px;
-    top: 0;
+    right: -95px;
+    top: -260px;
     width: 65%;
     z-index: 1;
 }

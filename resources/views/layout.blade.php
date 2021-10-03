@@ -13,7 +13,7 @@
                             <ul>    <!-- SLIDE  -->
                                 <li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{asset('public/frontend/images/main-slider/slide1.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{asset('public/frontend/images/main-slider/slide1.jpg')}}" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="-500 0" data-offsetend="500 0" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                                    <img src="{{asset('public/frontend/images/main-slider/khoe-cung-lea-banner.png')}}" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="-500 0" data-offsetend="500 0" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
                                     <!-- LAYERS -->
                                     <div class="tp-caption tp-shape tp-shapewrapper " id="slide-100-layer-1" 
                                     data-x="['center','center','center','center']" 
@@ -33,7 +33,7 @@
                                     data-paddingbottom="[0,0,0,0]" 
                                     data-paddingleft="[0,0,0,0]" 
                                     style="z-index: 2;background-color:rgba(0, 0, 0, 0.0);border-color:rgba(0, 0, 0, 0);border-width:0px;"> </div>
-                                    <!-- LAYER NR. 1 -->
+                                    <!-- LAYER NR. 1 haha -->
                                     <div class="tp-caption   rs-parallaxlevel-4" 
                                         id="slide-100-layer-2" 
                                         data-x="['right','right','right','right']" 
@@ -54,7 +54,7 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 5; min-width: 720px; max-width: 720px; white-space: normal; line-height: 70px;  color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px; font-weight:700;">Spa Điều Trị Da Uy Tín Phú Nhuận</div>
+     style="z-index: 5; min-width: 720px;top: -190px; right: -75px; max-width: 720px; white-space: normal; line-height: 70px;  color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px; font-weight:700;">Khỏe cùng Lea</div>
 
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption   rs-parallaxlevel-4" 
@@ -77,7 +77,7 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 6; min-width: 720px; max-width: 720px; white-space: normal;line-height: 26px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px;">Không chỉ là nơi để làm đẹp và chăm sóc sức khỏe, Lea Beauty Spot spa còn là chốn thư giãn để bạn nâng niu cảm xúc, quên đi những muộn phiền trong cuộc sống. </div>
+                                        style="top: -195px; right: -75px;z-index: 6; min-width: 720px; max-width: 720px; white-space: normal;line-height: 26px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px;">Lea không chỉ là nơi làm đẹp – Lea còn là nơi bình yên để bạn quay về.</div>
 
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption rs-parallaxlevel-4" 
@@ -99,7 +99,9 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 9;"><a href="#" class="site-button white">XEM THÊM</a></div>
+                                        style="z-index: 9;"><a style="top: -171px;
+                                        right: 437px;
+                                        position: absolute;" href="#" class="site-button white">XEM THÊM </a></div>
                                         <!-- LAYER NR. 4 -->
                                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" 
                                             id="slide-100-layer-5" 
@@ -118,7 +120,7 @@
                                             data-paddingright="[0,0,0,0]"
                                             data-paddingbottom="[0,0,0,0]"
                                             data-paddingleft="[0,0,0,0]"
-                                            style="z-index: 8;border-width:0px;">
+                                            style="z-index: 8;border-width:0px; top:-120px; right:-90px; position: fixed">
                                                 <div class="rs-looped rs-wave" data-speed="20" data-angle="0" data-radius="50px" data-origin="50% 50%">
                                                     <img src="{{asset('public/frontend/images/main-slider/peralax.png')}}" alt="" data-ww="['590px','479px','383px','287px']" data-hh="['616px','500px','400px','300px']" width="590" height="616" data-no-retina> 
                                                 </div>
@@ -146,16 +148,16 @@
                                                 </div>
                                         </div>
                                         <div class="header-set">
-                                            <img src="{{asset('public/frontend/images/skew/header-skew.svg')}}" alt=""/>
+                                            <img  src="{{asset('public/frontend/images/skew/header-skew.svg')}}" alt=""/>
                                         </div>
                                         <div class="slider-set">
-                                            <img src="{{asset('public/frontend/images/skew/slider-skew.svg')}}" alt=""/>
+                                            <img  src="{{asset('public/frontend/images/skew/slider-skew.svg')}}" alt=""/>
                                         </div>
                                 </li>
                                 <!-- SLIDE  -->
-                                <li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{asset('public/frontend/images/main-slider/slide2.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                <li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{asset('public/frontend/images/main-slider/slide1.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{asset('public/frontend/images/main-slider/slide2.jpg')}}" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="-500 0" data-offsetend="500 0" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                                    <img src="{{asset('public/frontend/images/main-slider/slide1.jpg')}}" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="-500 0" data-offsetend="500 0" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
                                     <!-- LAYERS -->
                                     <div class="tp-caption tp-shape tp-shapewrapper " id="slide-200-layer-1" 
                                     data-x="['center','center','center','center']" 
@@ -196,7 +198,7 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 5; min-width: 720px; max-width: 720px; white-space: normal; line-height: 70px;  color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px; font-weight:700;">Chuyên trị đau mỏi vai gáy</div>
+                                        style="top: -190px; right: -75px;  z-index: 5; min-width: 720px; max-width: 720px; white-space: normal; line-height: 70px;  color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px; font-weight:700;">Chuyên trị đau mỏi vai gáy</div>
 
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption   rs-parallaxlevel-4" 
@@ -219,7 +221,7 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 6; min-width: 720px; max-width: 720px; white-space: normal;line-height: 26px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px;">Giúp vai cổ gáy giảm đau nhức do thời gian ngồi văn phòng làm việc nhiều, ngồi máy tính thời gian dài. Đả thông huyệt bị tắc ở vai cổ gáy. Giảm căng thẳng cho hệ thần kinh.</div>
+                                        style="top: -195px; right: -75px;z-index: 6; min-width: 410px; max-width: 410px; white-space: normal;line-height: 26px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:'Nunito',sans-serif;border-width:0px;">Giúp vai cổ gáy giảm đau nhức do thời gian ngồi văn phòng làm việc nhiều.</div>
 
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption rs-parallaxlevel-4" 
@@ -241,7 +243,9 @@
                                         data-paddingright="[0,0,0,0]"
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
-                                        style="z-index: 9;"><a href="" class="site-button white">XEM THÊM</a></div>
+                                        style="z-index: 9;"><a style="top: -171px;
+                                        right: 437px;
+                                        position: absolute;" href="" class="site-button white">XEM THÊM</a></div>
                                         <!-- LAYER NR. 4 -->
                                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" 
                                             id="slide-200-layer-5" 
@@ -288,7 +292,7 @@
                                                 </div>
                                         </div>
                                         <div class="header-set">
-                                            <img src="{{asset('public/frontend/images/skew/header-skew.svg')}}" alt=""/>
+                                            <img  src="{{asset('public/frontend/images/skew/header-skew.svg')}}" alt=""/>
                                         </div>
                                         <div class="slider-set">
                                             <img src="{{asset('public/frontend/images/skew/slider-skew.svg')}}" alt=""/>
@@ -315,7 +319,223 @@
 
 
 
+{{--begin list product --}}
+<style> .row-category {
+            margin-top: -25px
+        }
 
+        .item-category {
+            text-align: center;
+        }
+
+        .title-category {
+            height: 57px;
+            margin-top: 3px;
+        }
+
+        .img-item-category {
+            height: 60px;
+        }
+
+        .item_new_price {
+            color: #ff6600;
+            line-height: 20px;
+        }
+
+        .txt_16 {
+            font-size: 16px;
+        }
+
+        .txt_20 {
+            font-size: 20px;
+        }
+
+        .price strong {
+            font-weight: bold;
+        }
+
+        .discount_percent {
+            background: #ff5501;
+            float: right;
+            display: inline-block;
+            background: red;
+            margin-left: 5px;
+            padding: 0px 5px;
+            border-radius: 2px;
+            color: #fff;
+        }
+
+        .item_old_price {
+            color: #666;
+            text-decoration: line-through;
+            line-height: 20px;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .txt_12 {
+            font-size: 12px;
+        }
+
+        .txt_color_1 {
+            color: #326e51;
+        }
+
+        .brand_product {
+            width: 100%;
+            margin-top: 30px;
+            font-weight: bold;
+            line-height: 22px;
+            max-height: 50px;
+            min-height: 50px;
+        }
+
+        .name_product {
+            width: 100%;
+            line-height: 22px;
+            max-height: 50px;
+            min-height: 50px;
+            font-size: 14px;
+            margin-bottom: 35px;
+        }
+        .item_name_lea{
+            display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        }
+        .item_name {
+            line-height: 18px;
+            max-height: 55px;
+            overflow: hidden;
+            margin: -15px 0;
+            display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+        }
+
+        .block_star {
+            position: relative;
+            display: inline-block;
+            font-size: 0;
+            line-height: 0;
+            margin-right: 3px;
+        }
+
+        .start_small {
+            width: 64px;
+            height: 11px;
+        }
+
+        .number_start {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .start_small .number_start {
+            height: 11px;
+            background: url('public/frontend/images/css/bg_start_small.jpg') no-repeat 0 -10px;
+        }
+
+        .start_small .start_background {
+            width: 100%;
+            height: 11px;
+            background: url('public/frontend/images/css/bg_start_small.jpg') no-repeat 0 -0px;
+        }
+
+        .font {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .txt_14 {
+            font-size: 14px;
+        }
+
+        .txt_18 {
+            font-size: 18px;
+        }
+
+        .rate {
+            margin-top: -25px;
+        }
+        .name_product-new{
+        overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    }</style>
+    <div class="section-full  content-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="sort-title clearfix text-center">
+                                <h4>Sản phẩm nổi bật</h4>
+                            </div>
+                            <!-- Event post Carousel with no margin -->
+<div class="section-content box-sort-in m-b30 button-example">
+    <div class="img-carousel-content mfp-gallery gallery owl-btn-center-lr">
+                                   
+@foreach($listProduct as $product)
+    <div class="item">
+        <div class="dez-box p-a20 border-1 bg-gray">
+            <div class="dez-thum-bx dez-img-overlay1 dez-img-effect zoom">
+                <img style="max-height: 228px;min-height: 228px" src="{{asset('public/uploads/product/'.$product->image)}}" alt="{{$product->productName}}">
+                <div class="overlay-bx"> 
+                    <div class="overlay-icon"> 
+                        <a href="javascript:void(0)"> <i class="fa fa-cart-plus icon-bx-xs"></i> </a>
+                        <a href="{{URL::to('/chi-tiet-san-pham-'.$product->productID )}}"><i class="fa fa-search icon-bx-xs"></i></a>
+                        <a href="{{URL::to('/chi-tiet-san-pham-'.$product->productID )}}"><i class="fa fa-heart icon-bx-xs"></i> </a>
+                    </div> 
+                </div> 
+            </div> 
+            <a href="{{URL::to('/chi-tiet-san-pham-'.$product->productID )}}"> 
+                <div class="dez-info p-t20 "> 
+                            <div class="m-b15 price"> 
+                                <strong class="item_new_price txt_20 left font">{{$product->price}}đ</strong> 
+                                @if($product->price_old>0)
+                                <span class="discount_percent txt_14 font">35%</span> 
+                                <span class="item_old_price txt_16 right font">189.000 ₫</span>
+                                @endif
+                            </div> 
+                            <div class="brand_product txt_color_1 ">
+                                <div class=" item_name_lea txt_14">{{$product->productName}}</div>
+                            </div> 
+                            <h2 class="  name_product"> 
+                                <div class="item_name font">
+                                    {{$product->moTaNgan}}</div> 
+                            </h2> 
+                            <div class=" rate font txt_16"> 
+                                <div class="block_star start_small"> 
+                                    <div style="width:96%;" class="number_start"> </div> 
+                                    <div class="start_background"></div> 
+                                </div>(56)&nbsp;&nbsp;|&nbsp;&nbsp;<span class="item_count_by txt_16"><img style="width: unset;display: unset; " src="{{('public/frontend/images/css/cart.svg')}}" alt="" draggable="false" class="loading" data-was-processed="true"> 1.581</span>
+                            </div>
+                        </div>
+                        </a> 
+                    </div>
+                
+                </div>
+                @endforeach
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Event post Carousel with no margin END -->
+            </div>
+{{-- end list product --}}
 
 
 
@@ -535,7 +755,7 @@
                                         <div class="col-md-4 col-sm-4 m-b30 wow fadeInUp" data-wow-duration="1.50s" data-wow-delay="0.1s">
                                             <div class="icon-bx-wraper center bg-white" data-tilt="">
                                                 <div class="icon-content">
-                                                    <p class="font-16">Spa điều trị da uy tín Phú Nhuận,<br>Luôn cập nhật các công nghệ hàng đầu.</p>
+                                                    <p class="font-16">Khoẻ cùng Lea<br>Luôn cập nhật các công nghệ hàng đầu.</p>
                                                     <div class=" icon-md m-b15"> 
                                                        <i class=" fa fa-star text-primary mr-2 "></i>
                                                     

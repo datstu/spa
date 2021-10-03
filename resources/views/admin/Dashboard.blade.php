@@ -14,13 +14,13 @@
 							<svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">120</div>
+							<div class="large">{{$countProduct}}</div>
 							<div class="text-muted">Sản phẩm</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-6 col-lg-3">
+			{{-- <div class="col-xs-12 col-md-6 col-lg-3">
 				<div class="panel panel-orange panel-widget">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -32,8 +32,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-xs-12 col-md-6 col-lg-3">
+			</div> --}}
+			{{-- <div class="col-xs-12 col-md-6 col-lg-3">
 				<div class="panel panel-teal panel-widget">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -45,8 +45,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-xs-12 col-md-6 col-lg-3">
+			</div> --}}
+			{{-- <div class="col-xs-12 col-md-6 col-lg-3">
 				<div class="panel panel-red panel-widget">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -54,21 +54,36 @@
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
 							<div class="large">25.2k</div>
-							<div class="text-muted">Danh mục</div>
+							<div class="text-muted">Đơn hàng</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 		</div><!--/.row-->
-		
 		<div class="row">
-			<div class="col-md-12">
-				<div class="panel panel-red">
-					<div class="panel-heading dark-overlay"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg>Lịch</div>
-					<div class="panel-body">
-						<div id="calendar"></div>
-					</div>
-				</div>
-			</div><!--/.col-->
-		</div><!--/.row-->
+			<h3>Thống kê truy cập</h3>
+			<table class="table">
+				<thead>
+				  <tr>
+					<th scope="col">Đang Online</th>
+					<th scope="col">Tổng tháng trước</th>
+					<th scope="col">Tổng tháng này</th>
+					<th scope="col">Tổng 1 năm</th>
+					<th scope="col">Tổng truy cập</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">{{$visitorOnline}}</th>
+					<td>{{$visitorLastmonthCount}}</td>
+					<td>{{$visitorThismonthCount}}</td>
+					<td>{{$visitorOneYearsCount}}</td>
+					<td>{{$visitorTotal}}</td>
+				  </tr>
+				  
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		
 @endsection()
